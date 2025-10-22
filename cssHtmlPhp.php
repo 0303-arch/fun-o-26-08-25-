@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Cadastro de Usuário</title>
+		<link rel="stylesheet" type="text/css" href="css/Style.css">
 		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
 	</head>
 	<body>
-	
+		<div class="conteiner">
 		<h1>Cadastro</h1>
-
+		
 		<form action="#" method="post">
 			<label for="primeroNome">Primeiro Nome</label>
  			<input type="text" name="primeroNome"
@@ -35,6 +36,8 @@
  			<button type="reset">Limpar</button>
  		</form>
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</div>
 	</body>
 	</html>	

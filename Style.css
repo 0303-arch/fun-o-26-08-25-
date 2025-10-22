@@ -5,6 +5,14 @@
 	border: 0;
 }
 
-.container{
-	
+.conteiner{
+	background-color:#CBD99B ;
+	display: flex;
+	margin: 30px;
+	padding: 30px;
+	width: 50%;
+	border-radius: 20px;
+	margin-top: 200px;	
+	justify-items: center;
+
 }
