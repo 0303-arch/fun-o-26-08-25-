@@ -26,4 +26,8 @@ if (isset($_POST['cachorro'])) {
 		echo($valor);
 	}
 	
+
+	if (isset($_POST['estados'])) {
+		echo "Você é do estado: " . $_POST['estados'];
+	}
 ?>
