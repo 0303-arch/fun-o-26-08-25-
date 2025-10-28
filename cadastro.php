@@ -1,21 +1,20 @@
 <?php
 
-if ($_SERVER['REQUEST_METHOD'] == 'post'){
-
-	$primeiroNome = $_POST['$primeiroNome'];
-	$segundoNome = $_POST['$segundoNome'];
-	$escolhasPets = $_POST['$escolhasPets'];
-
-	echo($primeiroNome .
-		$segundoNome .
-		$escolhasPets);
-
-	echo '<a href="../index.php">Voltar</a>';
-
-	//header("location: ../index.php")
-}else{
-	echo "É get"
+if (isset($_POST['cachorro'])) {
+	echo "$_POST['cachorro']";
+	echo "<br>";
 }
-
+	if (isset($_POST['gato'])) {
+	echo "$_POST['gato']";
+	echo "<br>";
+}	
+	if (isset($_POST['peixe'])) {
+	echo "$_POST['peixe']";
+	echo "<br>";
+}	
+	if (isset($_POST['passaro'])) {
+	echo "$_POST['passaro']";
+	echo "<br>";
+}	
 
 ?>

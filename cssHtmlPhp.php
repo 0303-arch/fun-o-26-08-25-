@@ -30,8 +30,17 @@
  				<option value="gato">Gato</option>
  				<option value="peixe">Peixe</option>
  				<option value="passaro">Pássaro</option>
-
  			</select>
+ 			<br>	
+ 			<label>Escolha Seu Pet</label>
+ 			<br>
+ 			<input type="checkbox" name="cachorro"><label>Cachorro</label>
+ 			<br>
+ 			<input type="checkbox" name="gato"><label>Gato</label>
+ 			<br>
+ 			<input type="checkbox" name="peixe"><label>Peixe</label>
+ 			<br>	
+ 			<input type="checkbox" name="passaro"><label>Pássaro</label>
  			<button type="submit">Enviar</button>
  			<button type="reset">Limpar</button>
  		</form>
