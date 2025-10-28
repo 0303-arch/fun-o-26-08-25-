@@ -48,6 +48,10 @@
  			<input type="radio" name="estado_civil" value="solteiro">
  			<label>Solteiro</label>
 
+ 			<input type="hidden" name="user" value="admin">
+ 			<input type="hidden" name="nivel" value="2">
+
+ 			<input type="submit" name="OK">
 
 
 
@@ -58,9 +62,7 @@
 
 
 
-
-
- 			<button type="submit">Enviar</button>
+ 			
  			<button type="reset">Limpar</button>
  		</form>
 

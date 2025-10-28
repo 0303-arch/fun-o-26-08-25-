@@ -22,4 +22,8 @@ if (isset($_POST['cachorro'])) {
 		echo "<br>";
 	}
 
+	if (isset($valor=$_POST['admin'])) {
+		echo($valor);
+	}
+	
 ?>
