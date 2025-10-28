@@ -40,7 +40,26 @@
  			<br>
  			<input type="checkbox" name="peixe"><label>Peixe</label>
  			<br>	
- 			<input type="checkbox" name="passaro"><label>Pássaro</label>
+ 			<input type="checkbox" name="passaro"><label>Pássaro</label> 
+ 			<br>
+ 			<br>
+ 			<input type="radio" name="estado_civil" value="casado">
+ 			<label>Casado</label>
+ 			<input type="radio" name="estado_civil" value="solteiro">
+ 			<label>Solteiro</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
  			<button type="submit">Enviar</button>
  			<button type="reset">Limpar</button>
  		</form>
