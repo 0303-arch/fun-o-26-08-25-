@@ -9,6 +9,7 @@
 </head>
 </head>
 <body>
+	<!--
 	<div class="conteiner">
 		<h1>Cadastro</h1>
 
@@ -75,6 +76,26 @@
 			<button type="reset">Limpar</button>
 		</form>
 
+
+		<?php
+
+			//session_start();
+
+		?>
+
+		<h3>Sessão de Usuário</h3>
+		SID desta sessão é: <?php// echo session_id(); ?>-->
+
+
+		<form name="logar" method="post" action="sessoes_bloqueando.php">
+			Nome: <br>
+			<input type="text" name="nome"><br>
+			Senha: <br>
+			<input type="password" name="senha"><br>
+
+			<input type="submit" name="Entrar">
+
+		</form>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
 	</div>
