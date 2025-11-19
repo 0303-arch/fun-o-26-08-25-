@@ -8,7 +8,7 @@
 <body>
 	<div class="container">
 		
-		<form action="votos.php" method="post">
+		<form name="voto" action="votos.php" method="get">
 
 			<h1>Qual é a melhor Escuderia da Fórmula 1?</h1>
 			
@@ -44,8 +44,9 @@
 
 			<input type="submit" name="Enviar" >
 
+			<?php
 
-
+			?>
 
 
 		</form>
