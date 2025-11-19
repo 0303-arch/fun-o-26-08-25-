@@ -1,6 +1,6 @@
 <?php
 
-	$voto = $_GET['voto'];
+	$voto = $_POST['voto'];
 
 	if (isset($_COOKIE['voto'])) {
 

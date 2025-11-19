@@ -8,7 +8,7 @@
 <body>
 	<div class="container">
 		
-		<form action="#" method="get">
+		<form action="votos.php" method="post">
 
 			<h1>Qual é a melhor Escuderia da Fórmula 1?</h1>
 			
@@ -42,7 +42,7 @@
 			<input type="radio" name="Escuderia" value="KickSauber">
 			<label>Kick Sauber</label>
 
-			<input type="submit" name="Enviar">
+			<input type="submit" name="Enviar" >
 
 
 
